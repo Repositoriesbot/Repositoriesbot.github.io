@@ -1,0 +1,42 @@
+<html>
+<head>
+</head>
+<body>
+<form action="http://127.0.0.1:12345/oz" method="post">
+<table>
+	<tr>
+		<td>
+		Repository Link:
+		</td>
+		<td>
+			<input type="text" name="repoLink">
+		</td>
+	</tr>
+	<tr>
+		<td>
+		Jira Server Link:
+		</td>
+		<td>
+			<input type="text" name="jiraServerLink">
+		</td>
+	</tr>
+	<tr>
+		<td>
+		Porject Name on Jira:
+		</td>
+		<td>
+			<input type="text" name="jiraProjectName">
+		</td>
+	</tr>
+	<tr>
+		<td>
+		Your email:
+		</td>
+		<td>
+			<input type="text" name="toEmail">
+		</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
